@@ -1,0 +1,72 @@
+module.exports = [
+  {
+    id: "ord_1", orderNumber: "P1032#001", jobNumber: "1200P1032", jobName: "Randall Co IH27 0168-09-083",
+    customer: "Webber", customerUsername: "webber_admin", deliveryDate: "2026-04-13", deliveryLocation: "https://maps.app.goo.gl/ewgvjZZTdvubg9x77",
+    status: "confirmed", createdAt: "2026-02-20T10:00:00Z", segment: "Paving Area 21 - 12' - STA 427+00 to STA 238+00",
+    contactName: "John Smith", contactPhone: "512-555-0101", backupName: "Mike Jones", backupPhone: "512-555-0102",
+    lines: [
+      { id: "l1", lineType: "longitudinal", barSize: "#6", feet: 60, inches: 0, pcsPerBundle: 30, numBundles: 29 },
+      { id: "l2", lineType: "transverse", barSize: "#5", feet: 11, inches: 8, pcsPerBundle: 99, numBundles: 3 },
+    ],
+    history: [{ date: "2026-02-20", action: "Order created", by: "Webber" }, { date: "2026-02-21", action: "Order confirmed by CMC", by: "Robin McElroy" }],
+    revisionRequests: [], issues: [],
+  },
+  {
+    id: "ord_2", orderNumber: "P1032#002", jobNumber: "1200P1032", jobName: "Randall Co IH27 0168-09-083",
+    customer: "Webber", customerUsername: "webber_admin", deliveryDate: "2026-04-13", deliveryLocation: "https://maps.app.goo.gl/ewgvjZZTdvubg9x77",
+    status: "confirmed", createdAt: "2026-02-20T10:30:00Z", segment: "Paving Area 21 - 22' - STA 457+50 to STA 473+52",
+    contactName: "John Smith", contactPhone: "512-555-0101", backupName: "Mike Jones", backupPhone: "512-555-0102",
+    lines: [
+      { id: "l3", lineType: "longitudinal", barSize: "#6", feet: 60, inches: 0, pcsPerBundle: 54, numBundles: 28 },
+      { id: "l4", lineType: "transverse", barSize: "#5", feet: 21, inches: 8, pcsPerBundle: 99, numBundles: 4 },
+      { id: "l5", lineType: "singlepiece", barSize: "#6", feet: 4, inches: 2, pcsPerBundle: 99, numBundles: 4 },
+    ],
+    history: [{ date: "2026-02-20", action: "Order created", by: "Webber" }, { date: "2026-02-21", action: "Order confirmed by CMC", by: "Jesse Miller Jr." }],
+    revisionRequests: [], issues: [],
+  },
+  {
+    id: "ord_3", orderNumber: "P1032#003", jobNumber: "1200P1032", jobName: "Randall Co IH27 0168-09-083",
+    customer: "Webber", customerUsername: "webber_admin", deliveryDate: "2026-04-13", deliveryLocation: "https://maps.app.goo.gl/ewgvjZZTdvubg9x77",
+    status: "submitted", createdAt: "2026-02-25T09:00:00Z", segment: "Paving Area 21 - 24' - STA 427+00 to STA 475+00",
+    contactName: "John Smith", contactPhone: "512-555-0101", backupName: "Mike Jones", backupPhone: "512-555-0102",
+    lines: [
+      { id: "l6", lineType: "longitudinal", barSize: "#6", feet: 60, inches: 0, pcsPerBundle: 59, numBundles: 83 },
+      { id: "l7", lineType: "transverse", barSize: "#5", feet: 23, inches: 8, pcsPerBundle: 99, numBundles: 12 },
+    ],
+    history: [{ date: "2026-02-25", action: "Order created", by: "Webber" }],
+    revisionRequests: [], issues: [],
+  },
+  {
+    id: "ord_4", orderNumber: "P1075#036", jobNumber: "1200P1075", jobName: "Tarrant Co IH30 1068-01-214",
+    customer: "Zachry Construction", customerUsername: "zachry_admin", deliveryDate: "2026-03-11", deliveryLocation: "https://maps.app.goo.gl/mktk989mvR2uS4Ln9",
+    status: "submitted", createdAt: "2026-02-24T14:00:00Z", segment: "WBML Linkcrest to 580 MP1",
+    contactName: "Rob Nash", contactPhone: "210-555-0201", backupName: "Carlos Garcia", backupPhone: "210-555-0202",
+    lines: [
+      { id: "l8", lineType: "longitudinal", barSize: "#6", feet: 60, inches: 0, pcsPerBundle: 52, numBundles: 28 },
+      { id: "l9", lineType: "longitudinal", barSize: "#6", feet: 60, inches: 0, pcsPerBundle: 26, numBundles: 37 },
+      { id: "l10", lineType: "longitudinal", barSize: "#6", feet: 60, inches: 0, pcsPerBundle: 13, numBundles: 6 },
+      { id: "l11", lineType: "transverse", barSize: "#5", feet: 23, inches: 8, pcsPerBundle: 99, numBundles: 5 },
+      { id: "l12", lineType: "transverse", barSize: "#5", feet: 11, inches: 8, pcsPerBundle: 99, numBundles: 5 },
+      { id: "l13", lineType: "transverse", barSize: "#5", feet: 5, inches: 8, pcsPerBundle: 99, numBundles: 1 },
+      { id: "l14", lineType: "singlepiece", barSize: "#6", feet: 4, inches: 2, pcsPerBundle: 99, numBundles: 37 },
+    ],
+    history: [{ date: "2026-02-24", action: "Order created", by: "Zachry Construction" }],
+    revisionRequests: [], issues: [],
+  },
+  {
+    id: "ord_5", orderNumber: "P722#074", jobNumber: "1200P722", jobName: "Oak Hill Parkway",
+    customer: "Breda Co", customerUsername: "breda_admin", deliveryDate: "2026-03-03", deliveryLocation: "https://maps.app.goo.gl/zmzirvTMy9Xcj3rM8",
+    status: "delivered", createdAt: "2026-02-10T08:00:00Z", segment: "290WBEN3 9' Shoulder STA 324+00 - 334+00",
+    contactName: "Dave Wilson", contactPhone: "512-555-0301", backupName: "Amy Brown", backupPhone: "512-555-0302",
+    lines: [
+      { id: "l15", lineType: "longitudinal", barSize: "#6", feet: 60, inches: 0, pcsPerBundle: 17, numBundles: 17 },
+      { id: "l16", lineType: "transverse", barSize: "#5", feet: 8, inches: 8, pcsPerBundle: 51, numBundles: 5 },
+    ],
+    history: [
+      { date: "2026-02-10", action: "Order created", by: "Breda Co" },
+      { date: "2026-02-11", action: "Order confirmed by CMC", by: "Robin McElroy" },
+      { date: "2026-03-03", action: "Delivery completed", by: "Robin McElroy" },
+    ],
+    revisionRequests: [], issues: [],
+  },
+];
